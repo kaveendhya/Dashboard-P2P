@@ -3,7 +3,8 @@ import plotly.graph_objects as go
 import streamlit as st
 
 # Load data
-df = pd.read_csv("daily_converted_data.csv")
+# df = pd.read_csv("daily_converted_data.csv")
+df = pd.read_csv("pages/daily_converted_data.csv")
 df['Day'] = pd.to_datetime(df['Day'])
 df['BTC vs LKR Interpolated'] = df['BTC vs LKR'].interpolate(method='linear')
 
