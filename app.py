@@ -28,21 +28,21 @@ st.sidebar.title("Dashboard Navigation")
 # ])
 
 # Page navigation based on selected chart type
-if page == "Merchant Activity":
-    st.write("### Merchant Activity Dashboard")
-    st.write("This page will show the Merchant Activity Charts.")
-elif page == "P2P Buy Depth Chart":
-    st.write("### P2P Buy Depth Chart")
-    st.write("This page will show the P2P Buy Depth Chart.")
-elif page == "P2P Market Data":
-    st.write("### P2P Market Data")
-    st.write("This page will show the P2P Market Data Charts.")
-elif page == "Merchant Volume":
-    st.write("### Merchant Volume Dashboard")
-    st.write("This page will show Merchant Volume related charts.")
-elif page == "Merchant Leaderboard Count":
-    st.write("### Merchant Leaderboard Count")
-    st.write("This page will show Merchant Leaderboard Count charts.")
+# if page == "Merchant Activity":
+#     st.write("### Merchant Activity Dashboard")
+#     st.write("This page will show the Merchant Activity Charts.")
+# elif page == "P2P Buy Depth Chart":
+#     st.write("### P2P Buy Depth Chart")
+#     st.write("This page will show the P2P Buy Depth Chart.")
+# elif page == "P2P Market Data":
+#     st.write("### P2P Market Data")
+#     st.write("This page will show the P2P Market Data Charts.")
+# elif page == "Merchant Volume":
+#     st.write("### Merchant Volume Dashboard")
+#     st.write("This page will show Merchant Volume related charts.")
+# elif page == "Merchant Leaderboard Count":
+#     st.write("### Merchant Leaderboard Count")
+#     st.write("This page will show Merchant Leaderboard Count charts.")
 
 
 
