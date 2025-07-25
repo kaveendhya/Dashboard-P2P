@@ -19,13 +19,13 @@ import streamlit as st
 
 # Sidebar for navigation
 st.sidebar.title("Dashboard Navigation")
-page = st.sidebar.radio("Select a Chart Type:", [
-    "Merchant Activity", 
-    "P2P Buy Depth Chart", 
-    "P2P Market Data", 
-    "Merchant Volume", 
-    "Merchant Leaderboard Count"
-])
+# page = st.sidebar.radio("Select a Chart Type:", [
+#     "Merchant Activity", 
+#     "P2P Buy Depth Chart", 
+#     "P2P Market Data", 
+#     "Merchant Volume", 
+#     "Merchant Leaderboard Count"
+# ])
 
 # Page navigation based on selected chart type
 if page == "Merchant Activity":
