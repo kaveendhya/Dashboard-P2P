@@ -83,7 +83,7 @@ def plot_heatmap_activity(df, merchant):
     fig = px.imshow(heatmap_data,
                     labels=dict(x="Hour of Day", y="Day of Week", color="Average Ad Count"),
                     title=f"Average Online Activity for {merchant} ({time_period})",
-                    color_continuous_scale="RdBu")
+                    color_continuous_scale="RdYlGn")
     st.plotly_chart(fig)
 
 # ----- Chart 3: Co-Online Merchants Bar Chart -----
